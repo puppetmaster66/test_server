@@ -15,7 +15,7 @@ const port = 3000
 let apiData = false
 
 app.get("/api/", (req, res) => {
-    res.json({icon: apiData ? "logoblack" : "logonormal"})
+    res.json({icon: apiData ? "logo_black" : "logo_normal"})
 })
 
 app.get("/api/change", (req, res) => {
